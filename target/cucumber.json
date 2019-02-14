@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "All test cases",
+        "description": "",
+        "id": "oscommerce-user-login;all-test-cases",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12951158000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on oscommerce website",
+            "match": {
+              "location": "Loginstepdef.user_is_on_oscommerce_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823984300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on my account",
+            "match": {
+              "location": "Loginstepdef.user_clicks_on_my_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238242200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters  valid credentials",
+            "match": {
+              "location": "Loginstepdef.user_enters_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923947300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user able to log in",
+            "match": {
+              "location": "Loginstepdef.user_able_to_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "oscommerce user login",
+    "description": "\r\ndescription: This is going to be the test casese for user stories",
+    "id": "oscommerce-user-login",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User able to ordered 2 mouses",
+        "description": "",
+        "id": "mouse-purchase;user-able-to-ordered-2-mouses",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21358341700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logged in and on homepage",
+            "match": {
+              "location": "Mousestepdef.user_logged_in_and_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5353979000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on mouse",
+            "match": {
+              "location": "Mousestepdef.user_clicks_on_mouse()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3263710800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on add to cart",
+            "match": {
+              "location": "Mousestepdef.user_clicks_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9431600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Add to cart page is displayed",
+            "match": {
+              "location": "Mousestepdef.add_to_cart_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119446800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user updates the number of mouse to two",
+            "match": {
+              "location": "Mousestepdef.user_updates_the_number_of_mouse_to_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1981337100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user updates number of mouse in cart",
+            "match": {
+              "location": "Mousestepdef.user_updates_number_of_mouse_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45434500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "value changes to two",
+            "match": {
+              "location": "Mousestepdef.value_changes_to_two()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414933900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks check out button",
+            "match": {
+              "location": "Mousestepdef.user_clicks_check_out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403427100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "Mousestepdef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Mouse purchase",
+    "description": "\r\ndescription: user able to purchase mouse",
+    "id": "mouse-purchase",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Mouse.feature"
+  }
+]

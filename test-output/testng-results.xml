@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24985" started-at="2019-02-10T00:57:55Z" finished-at="2019-02-10T00:58:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24985" started-at="2019-02-10T00:57:55Z" finished-at="2019-02-10T00:58:20Z">
+      <class name="com.testNG.OStestNG">
+        <test-method status="PASS" signature="getsetup()[pri:0, instance:com.testNG.OStestNG@12c8a2c0]" name="getsetup" is-config="true" duration-ms="12941" started-at="2019-02-10T00:57:55Z" finished-at="2019-02-10T00:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsetup -->
+        <test-method status="PASS" signature="user_clicks_on_my_account()[pri:0, instance:com.testNG.OStestNG@12c8a2c0]" name="user_clicks_on_my_account" duration-ms="12019" started-at="2019-02-10T00:58:08Z" finished-at="2019-02-10T00:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_my_account -->
+      </class> <!-- com.testNG.OStestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
