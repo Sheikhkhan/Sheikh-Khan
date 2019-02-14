@@ -36,7 +36,7 @@ public class OStestNG {
 		driver.findElement(By.xpath("(//*[@class='ui-button-text'])[4]")).click();
 		ScreenShot.captureScreenShot(driver, "CommerceLogin");
 
-	//}
+	
 
 	//public void user_clicks_on_mouse() throws Throwable {
 		driver.findElement(By.xpath("//*[@href='https://demo.oscommerce.com/product_info.php?products_id=3']")).click();
